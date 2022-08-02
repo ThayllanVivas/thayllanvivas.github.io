@@ -1,0 +1,36 @@
+.navbar {
+    width: 100vw;
+    height: 80px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(41, 39, 39);;
+
+    div {
+        min-width: 80vw;
+        max-width: 70vw;
+        height: inherit;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+
+            img {
+                margin-right: 1rem;
+            }
+        }
+
+        .list {
+            display: flex;
+
+            .item {
+                margin-right: 2rem;
+                list-style-type: none;
+            }
+        }
+    }
+}
