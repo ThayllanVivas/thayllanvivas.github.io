@@ -1,87 +1,88 @@
-main {
+#main_experience {
+    // background-color: bisque;
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    // background-color: antiquewhite;
+    // align-items: center;
+    margin: 2vh 0;
+    color: rgba(255, 255, 255, 0.63);
 
-    #img {
-        margin-right: 3rem;
-    }
-    
-    #apresentation{
-        width: 30%;
-        color: rgba(255, 255, 255, 0.527);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 1.5rem;
-        // background-color: antiquewhite;
+    #container {
+        width: 1200px;
 
         h2 {
-            margin: 1rem 0;
-            // color: white;
+            text-align: center;
         }
 
-        p { 
-            letter-spacing: 1px;
-            color: rgb(255, 255, 255);
-        }
+        .experience_container {
+            // background-color: rgb(131, 121, 121);
+            width: 1200px;
+            // height: 10px;
+            margin: 3rem 0 3rem;
 
-        span {
-            margin: 2rem 0;
-            // color: white;
-        }
-
-        #contact{
-            margin-top: 2rem;
-            display: flex;
-            justify-content: right;
-            width: 100%;
-            // background-color: antiquewhite;
-
-            a {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 0.4rem 1rem;
-                border-radius: 0.4rem;
-                width: 50%;
+            .date_experience{
                 font-weight: bold;
-                text-decoration: none;
-                color: white;
-                font-size: 1rem;
+            }
 
-                #experienceimg {
-                    width: 40px;
-                    height: 40px;
-                    margin-right: 0.5rem;
+            .experience_info {
+                width: inherit;
+                // height: inherit;
+                // background-color: rgba(16, 250, 250, 0.308);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .title_experience {
+                    text-align: left;
+                    width: 50%;
+                    // background-color: rgba(16, 250, 250, 0.308);
+                    font-size: 1.5rem;
+                    color: rgba(255, 255, 255, 0.87);
+                    font-weight: bold;
+                }
+
+                .date_experience{
+                    text-align: right;
+                    width: 50%;
+                    // background-color: rgba(201, 157, 13, 0.308);
                 }
             }
 
-            #experience {
-                padding: 0.4rem 1rem;
-                border: 2px solid var(--experience);
-                color: var(--experience);
-                // margin-right: 1rem;
-            }
+            .experience_detail {
+                margin-top: 1rem;
+                // background-color: rgba(195, 16, 250, 0.308);
+                display: flex;
+                align-items: center;
 
-            #experience:hover {
-                background-color: var(--experience);
-                color: white;
-            }
-            
-            #github {
-                padding: 0.4rem 1rem;
-                border: 2px solid var(--github);
-                color: var(--github);
-            }
-
-            #github:hover {
-                background-color: gray;
-                color: white;
-                border: 2px solid gray;
+                .experience_img{
+                    width: 50px;
+                    height: inherit;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 1rem;
+                    border-right: 2px solid white;
+                    // background-color: orange;
+        
+                    img {
+                        height: 50px;
+                        // background: transparent;
+                        border-radius: 0.5rem;
+                        margin-right: 1rem;
+                    }
+                }
+        
+                .job_description_experience {
+                    letter-spacing: 1px;
+                    padding: 0 1rem;
+                    border-radius: 0.3rem;
+                    background-color: rgba(190, 190, 190, 0.048);
+                    
+                    p {
+                        margin: 0.3rem 0;
+                    }
+                }
             }
         }
     }
