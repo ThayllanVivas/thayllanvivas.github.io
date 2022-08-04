@@ -1,0 +1,49 @@
+main#PROJECT {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #container {
+        margin-top: 2rem;
+        width: 1200px;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        h2 {
+            color: rgba(255, 255, 255, 0.555);            
+        }
+    
+        #project_container{
+            width: inherit;
+            height: inherit;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+            .project{
+                min-width: 48.5%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgba(96, 192, 247, 0.384);
+                margin-bottom: 2rem;
+
+                img {
+                    width: 100%;
+                }
+
+                h3 {
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }
+
+    // background-color: antiquewhite;
+}

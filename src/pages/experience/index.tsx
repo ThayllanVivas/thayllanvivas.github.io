@@ -7,7 +7,7 @@ import experience4_logo from '../../assets/experiencia4.png'
 
 export default function Experience(){
     return (
-        <div id={styles.main_experience}>
+        <main id={styles.EXPERIENCE}>
 
             <div id={styles.container}>
                 <h2>EXPERIÊNCIAS PROFISSIONAIS</h2>
@@ -131,6 +131,6 @@ export default function Experience(){
 
             </div>
 
-        </div>
+        </main>
     )
 }

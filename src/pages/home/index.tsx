@@ -5,7 +5,7 @@ import linkedin_logo from '../../assets/linkedin.png'
 
 export default function Home(){
     return (
-        <main>
+        <main id={styles.HOME}>
             <div id={styles.apresentation}>
                 <span>HELLO DEVS! EU SOU</span>
                 <span id={styles.name}>THAYLAN VIVAS</span>

@@ -5,7 +5,7 @@ import email from '../../assets/email.png'
 
 export default function About(){
     return (
-        <main>
+        <main id={styles.ABOUT}>
             <div id={styles.img}>
                 <img src={profile}/>
             </div>

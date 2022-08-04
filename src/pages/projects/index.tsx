@@ -1,14 +1,38 @@
-import styles from '../../styles/Experience.module.scss'
-import profile from '../../assets/profile.png'
-import experience1_logo from '../../assets/experiencia1.png'
-import experience2_logo from '../../assets/experiencia2.png'
-import experience3_logo from '../../assets/experiencia3.png'
-import experience4_logo from '../../assets/experiencia4.png'
+import styles from '../../styles/Projects.module.scss'
+import example from '../../assets/example.png'
 
-export default function Experience(){
+export default function Projects(){
     return (
-        <main>
-            <h2>PROJETOS</h2>
+        <main id={styles.PROJECT}>
+
+            <div id={styles.container}>
+
+                <h2>PROJETOS</h2>
+                <div id={styles.project_container}>
+                    <div className={styles.project}>
+                        <img src={example} />
+                        <h3>PROJETO 1</h3>
+                        <p>Descrição do projeto vem aqui</p>
+                    </div>
+                    <div className={styles.project}>
+                        <img src={example} />
+                        <h3>PROJETO 2</h3>
+                        <p>Descrição do projeto vem aqui</p>
+                    </div>
+                    <div className={styles.project}>
+                        <img src={example} />
+                        <h3>PROJETO 3</h3>
+                        <p>Descrição do projeto vem aqui</p>
+                    </div>
+                    <div className={styles.project}>
+                        <img src={example} />
+                        <h3>PROJETO 4</h3>
+                        <p>Descrição do projeto vem aqui</p>
+                    </div>
+                </div>
+                
+            </div>
+
         </main>
     )
 }
