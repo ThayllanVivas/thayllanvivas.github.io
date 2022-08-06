@@ -77,10 +77,15 @@ main#HOME {
         }
     }
 
-    // #img {
-    //     // width: 30%;
-    //     // background-color: aqua;
-    // }
+    #img {
+        // width: 30%;
+        
+        // background-color: aqua;
+
+        img {
+            height: 90vh;
+        }
+    }
 }
 
 @media screen and (max-width: 1600px) {

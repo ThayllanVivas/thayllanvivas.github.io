@@ -2,21 +2,25 @@ import styles from '../../styles/About.module.scss'
 import profile from '../../assets/profile.png'
 import downloa_da_nuvem from '../../assets/download-da-nuvem.png'
 import email from '../../assets/email.png'
+import eu from '../../assets/programacao.png'
 
 export default function About(){
     return (
         <main id={styles.ABOUT}>
             <div id={styles.img}>
-                <img src={profile}/>
+                <img src={eu}/>
             </div>
 
             <div id={styles.apresentation}>
                 <h2>SOBRE MIM</h2>
-                <p>Atualmente estou com 23 anos, sou técnólogo em Sistemas para Internet pela faculdade de Maringá, no Paraná. <br />
-                Desde que me formei em 2020 busquei atrás de ser um desenvolvedor. <br />
-                Trabalhei em empresas de médio e grande porte, sendo uma delas uma empresa da Rússia.<br />
+                <p>
+                    Sou técnólogo em Sistemas para Internet pela Universidade de Maringá, no Paraná,
+                    e estranhamente curioso por tecnologia; <br />
+                    Desde que me formei em 2020 busquei atrás de ser um desenvolvedor. <br />
+                    Trabalhei em empresas de médio e grande porte, sendo uma delas uma empresa da Rússia.<br />
+                    
                 </p>
-                <span>Feira de Santana, Bahia</span>
+                <span>Feira de Santana, Bahia - 23 anos</span>
 
                 <div id={styles.contact}>
                     <a href='./ThayllanVivas.pdf' download id={styles.resume}>

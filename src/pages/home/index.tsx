@@ -2,6 +2,7 @@ import styles from '../../styles/Home.module.scss'
 import coder from '../../assets/programacao.png'
 import github_logo from '../../assets/github.png'
 import linkedin_logo from '../../assets/linkedin.png'
+import eu from '../../assets/eu2.png'
 
 export default function Home(){
     return (
@@ -24,7 +25,7 @@ export default function Home(){
             </div>
 
             <div id={styles.img}>
-                <img src={coder}/>
+                <img src={eu}/>
             </div>
         </main>
     )
