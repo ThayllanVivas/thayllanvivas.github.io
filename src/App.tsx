@@ -5,17 +5,20 @@ import About from './pages/about'
 import Projects from './pages/projects'
 import Navbar from './components/navbar/Navbar'
 import Experience from './pages/experience'
+import Container from './components/Container/Container'
 
 export default function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route element={<Home />} path='/home' />
-        <Route element={<About />} path='/about' />
-        <Route element={<Experience />} path='/experience' />
-        <Route element={<Projects />} path='/projects' />
-      </Routes>
+      <Container>
+        <Navbar />
+        <Routes>
+          <Route element={<Home />} path='/' />
+          <Route element={<About />} path='/about' />
+          <Route element={<Experience />} path='/experience' />
+          <Route element={<Projects />} path='/projects' />
+        </Routes>
+      </Container>
     </Router>
   )
 }

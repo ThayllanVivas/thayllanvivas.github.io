@@ -1,35 +1,105 @@
-.navbar {
-    width: 100vw;
-    height: 80px;
-    font-weight: bold;
-    border-bottom: 2px solid rgb(41, 39, 39);;
+// #navbar {
+//     width: 4vw;
+//     height: 100vh;
+//     font-weight: bold;
+//     border-bottom: 2px solid rgb(41, 39, 39);;
+//     background-color: aqua;
 
-    div {
-        min-width: 80vw;
-        max-width: 70vw;
+//     div {
+//         min-width: 80vw;
+//         max-width: 70vw;
+//         height: inherit;
+//         display: flex;
+//         margin: 0 auto;
+//         align-items: center;
+//         justify-content: space-between;
+
+//         a {
+//             display: flex;
+//             align-items: center;
+//             color: white;
+//             text-decoration: none;
+
+//             img {
+//                 margin-right: 1rem;
+//             }
+//         }
+
+//         .list {
+//             display: flex;
+
+//             .item {
+//                 margin-right: 2rem;
+//                 list-style-type: none;
+//             }
+//         }
+//     }
+// }
+
+#navbar {
+    width: 70px;
+    // height: 100vh;
+    padding: 0 0.4rem;
+    font-weight: bold;
+    // border-bottom: 2px solid rgb(41, 39, 39);
+    background-color: rgb(255, 255, 255);
+
+    #container {
+        width: inherit;
         height: inherit;
         display: flex;
-        margin: 0 auto;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        // justify-content: center;
+        // background-color: aqua;
 
         a {
-            display: flex;
-            align-items: center;
             color: white;
             text-decoration: none;
-
-            img {
-                margin-right: 1rem;
-            }
         }
 
-        .list {
+        #logo {
+            //nothing
+            width: inherit;
+            height: 30vh;
+            // background-color: rgba(0, 255, 255, 0.37);
             display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-            .item {
-                margin-right: 2rem;
-                list-style-type: none;
+        #links {
+            width: inherit;
+            height: 100vh;
+            // background-color:rgba(240, 255, 255, 0.281);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #list {
+                width: inherit;
+                display: flex;
+                flex-direction: column;
+                // justify-content: space-around;
+                align-items: center;
+                // background-color:rgba(240, 255, 255, 0.281);
+    
+                .item {
+                    margin-bottom: 3rem;
+                    list-style-type: none;
+    
+                    a {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        color: rgba(0, 0, 0, 0.582);
+
+                        img {
+                            width: 3rem;
+                            // height: 3rem;
+                        }
+                    }
+                }
             }
         }
     }

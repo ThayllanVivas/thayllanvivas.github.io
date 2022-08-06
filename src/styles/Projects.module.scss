@@ -27,7 +27,7 @@ main#PROJECT {
     
             .project{
                 min-width: 48.5%;
-                height: 400px;
+                // height: 400px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -41,6 +41,10 @@ main#PROJECT {
 
                 h3 {
                     margin: 1rem 0;
+                }
+
+                p {
+                    color:rgba(255, 255, 255, 0.555);
                 }
             }
         }

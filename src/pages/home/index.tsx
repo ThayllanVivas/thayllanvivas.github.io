@@ -7,7 +7,7 @@ export default function Home(){
     return (
         <main id={styles.HOME}>
             <div id={styles.apresentation}>
-                <span>HELLO DEVS! EU SOU</span>
+                <span>HI DEVS! EU SOU</span>
                 <span id={styles.name}>THAYLAN VIVAS</span>
                 <span>DESENVOLVEDOR FULL STACK</span>
 
