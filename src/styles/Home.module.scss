@@ -4,9 +4,11 @@ main#HOME {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 4vw;
     
     #apresentation{
         width: 30%;
+        // margin-left: 4vw;
         color: rgba(255, 255, 255, 0.527);
         display: flex;
         flex-direction: column;

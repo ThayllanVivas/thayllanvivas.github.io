@@ -8,7 +8,7 @@ export default function Home(){
         <main id={styles.HOME}>
             <div id={styles.apresentation}>
                 <span>HI DEVS! EU SOU</span>
-                <span id={styles.name}>THAYLAN VIVAS</span>
+                <span id={styles.name}>THAYLLAN VIVAS</span>
                 <span>DESENVOLVEDOR FULL STACK</span>
 
                 <div id={styles.contact}>

@@ -43,6 +43,7 @@
     font-weight: bold;
     // border-bottom: 2px solid rgb(41, 39, 39);
     background-color: rgb(255, 255, 255);
+    position: fixed;
 
     #container {
         width: inherit;
@@ -87,6 +88,7 @@
                 .item {
                     margin-bottom: 3rem;
                     list-style-type: none;
+                    font-size: .9rem;
     
                     a {
                         display: flex;
@@ -95,7 +97,7 @@
                         color: rgba(0, 0, 0, 0.582);
 
                         img {
-                            width: 3rem;
+                            width: 2.6rem;
                             // height: 3rem;
                         }
                     }
