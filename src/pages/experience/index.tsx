@@ -15,7 +15,7 @@ export default function Experience(){
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
                         <p className={styles.title_experience}>Desenvolvedor Full Stack</p>
-                        <p className={styles.date_experience}>FREELANCER | Mai 2022 - Momento</p> 
+                        <p className={styles.date_experience}>FREELANCER |Abr 2021 - Momento</p> 
                     </div>
 
                     <div className={styles.experience_detail}>
