@@ -15,7 +15,7 @@ export default function Experience(){
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
                         <p className={styles.title_experience}>Desenvolvedor Full Stack</p>
-                        <p className={styles.date_experience}>FREELANCER |Abr 2021 - Momento</p> 
+                        <p className={styles.date_experience}>FREELANCER | Abr 2021 - Momento</p> 
                     </div>
 
                     <div className={styles.experience_detail}>
@@ -26,7 +26,7 @@ export default function Experience(){
                         <div className={styles.job_description_experience}>
                             {/* <h2>Dentro os projetos já feitos, esses são os que mais me desafiaram:</h2> */}
                             <p>
-                                ▪ Desenvolvi um sistema web para a antiga empresa em que trabalhei com as tecnologias: Node | TypeScrip | NextJs, além do Express, PostegreSQL e do Prisma Cliente
+                                ▪ Desenvolvi um sistema web para a antiga empresa em que trabalhei com as tecnologias: Node | TypeScript | NextJs, além do Express, SQL Server, PostegreSQL e do Prisma Cliente
                             </p>
                             <p>
                                 ▪ Desenvolvi também sistema web para cálculo de custo de projeto;
@@ -36,6 +36,32 @@ export default function Experience(){
                             </p>
                             <p>
                                 ▪ E uma página web que informa os top 20 filmes mais bem avaliados.
+                            </p>
+                        </div>  
+                    </div> 
+                </div>
+
+                <div className={styles.experience_container}>
+                    <div className={styles.experience_info}>
+                        <p className={styles.title_experience}>GQS Seguros</p>
+                        <p className={styles.date_experience}>Assistente Melhoria Específica | Dez 2021 - Mai 2022</p> 
+                    </div>
+
+                    <div className={styles.experience_detail}>
+                        <div className={styles.experience_img}>
+                            <img src={experience4_logo}/>
+                        </div>
+
+                        <div className={styles.job_description_experience}>
+                            {/* <h2>Dentro os projetos já feitos, esses são os que mais me desafiaram:</h2> */}
+                            <p>
+                                ▪ Elaborei dashboards e relatórios utilizando Excel avançado sobre desenvolvimento e progressão da empresa, o que auxiliou na tomada de decisão;
+                            </p>
+                            <p>
+                                ▪ Leitura de dados e reconhecimento de padrões em tratamento e resolução de ocorrências sobre sinistralidades e abertura de chamado na empresa;
+                            </p>
+                            <p>
+                                ▪ Treinei e acompanhei colaboradores sobre processos da empresa para maior desempenho;
                             </p>
                         </div>  
                     </div> 
@@ -93,7 +119,7 @@ export default function Experience(){
                                 16 fiscais e 12 de recursos humanos;
                             </p>
                             <p>
-                                ▪ Apresenetei relatórios semanais sobre avanço do serviço à administração;
+                                ▪ Apresentei relatórios semanais sobre avanço do serviço à administração;
                             </p>
                         </div>  
                     </div> 
