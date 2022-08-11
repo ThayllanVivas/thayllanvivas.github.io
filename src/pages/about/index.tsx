@@ -1,6 +1,6 @@
 import styles from '../../styles/About.module.scss'
 import profile from '../../assets/profile.png'
-import downloa_da_nuvem from '../../assets/download-da-nuvem.png'
+import download_da_nuvem from '../../assets/download-da-nuvem.png'
 import email from '../../assets/email.png'
 import eu from '../../assets/programacao.png'
 
@@ -23,8 +23,8 @@ export default function About(){
                 <span>Feira de Santana, Bahia - 23 anos</span>
 
                 <div id={styles.contact}>
-                    <a href='./ThayllanVivas.pdf' download id={styles.resume}>
-                        <img className={styles.logoimg} src={downloa_da_nuvem} />
+                    <a href='https://drive.google.com/file/d/19XU1YbFB4PP0cU65sFuGjA9AhdcAQWfb/view?usp=sharing' target='_blank' id={styles.resume}>
+                        <img className={styles.logoimg} src={download_da_nuvem} />
                         Currículo
                     </a>
                     <a href="mailto: thayllanvivas@hotmail.com?subject=Thayllan, vim pelo seu portfólio! :)" target="_blank" id={styles.email}>
