@@ -9,11 +9,34 @@ export default function Projects(){
     return (
         <main id={styles.PROJECT}>
 
-            <div id={styles.container}>
+            <div id={styles.project_main}>
 
                 <h2>PROJETOS</h2>
 
-                <div id={styles.project_container}>
+                <div id={styles.project_container}> 
+                    <div className={styles.project}>
+                        <div className={styles.project_demo}>
+                            <a href='https://github.com/ThayllanVivas/chat-app' target='_blank'>
+                                <img src='https://media.giphy.com/media/2BYlyYzJ7pi6Diss7k/giphy.gif' />
+                            </a>
+                        </div>
+
+                        <span></span>
+
+                        <div className={styles.project_info}>
+                            <h3>CHAT APP</h3>
+  
+                            <div>
+                                <p>
+                                    <img src={info} /> Bate-papo em grupo utilizando Socket.io com Node.js no server;
+                                </p>
+                                <p>
+                                    <img src={tecnologia} /> Node, JavaSript, Socket.io, Express;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className={styles.project}>
                         <div className={styles.project_demo}>
                             <a href='https://github.com/ThayllanVivas/gqsseguros' target='_blank'>

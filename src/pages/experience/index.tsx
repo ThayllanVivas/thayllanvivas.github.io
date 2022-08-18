@@ -9,7 +9,7 @@ export default function Experience(){
     return (
         <main id={styles.EXPERIENCE}>
 
-            <div id={styles.container}>
+            <div id={styles.experience_container}>
                 <h2>EXPERIÊNCIAS PROFISSIONAIS</h2>
 
                 <div className={styles.experience_container}>

@@ -3,16 +3,15 @@ main#PROJECT {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 6vw;
 
-    #container {
+    #project_main {
         margin-top: 2rem;
-        width: 1200px;
+        width: 900px;
         height: inherit;
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        margin-left: 6vw;
 
         h2 {
             color: rgba(255, 255, 255, 0.555);            
@@ -28,34 +27,34 @@ main#PROJECT {
 
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-around;
                 
                 padding: 1rem 0;
                 margin-bottom: 2rem;
                 border-radius: 0.7rem;
-                background-color: rgba(255, 255, 255, 0.021);
+                background-color: rgba(252, 39, 39, 0.021);
 
                 .project_demo{
-                    width: 43%;
-
-                    text-align: center;
+                    width: 40%;
+                    
 
                     img {
                         border-radius: 0.5rem;
+                        width: 100%;
                     }
                 }
 
                 span {
-                    width: 3px;
-                    height: 200px;
+                    width: 2px;
+                    height: 150px;
 
                     margin: 0 0.4rem;
                     
-                    background-color: var(--person_blue);
+                    background-color: white;
                 }
 
                 .project_info{
-                    width: 55%;
+                    width: 60%;
 
                     h3 {
                         text-align: center;
@@ -69,7 +68,7 @@ main#PROJECT {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        align-items: center;
+                        // align-items: center;
 
                         p {
                             display: flex;
@@ -78,7 +77,8 @@ main#PROJECT {
 
                             img {
                                 margin-right: 0.5rem;
-                                width: 1.3rem;
+                                width: 1rem;
+                                height: 1rem;
                                 color: white;
                             }
                         }
