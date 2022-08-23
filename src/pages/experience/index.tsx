@@ -15,7 +15,7 @@ export default function Experience(){
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
                         <p className={styles.title_experience}>Desenvolvedor Full Stack</p>
-                        <p className={styles.date_experience}>FREELANCER | Abr 2021 - Momento</p> 
+                        <p className={styles.date_experience}>FREELANCER | Jan 2021 - Momento</p> 
                     </div>
 
                     <div className={styles.experience_detail}>
@@ -43,8 +43,8 @@ export default function Experience(){
 
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
-                        <p className={styles.title_experience}>GQS Seguros</p>
-                        <p className={styles.date_experience}>Assistente Melhoria Específica | Dez 2021 - Mai 2022</p> 
+                        <p className={styles.title_experience}>Assistente de MelhorIa Específica</p>
+                        <p className={styles.date_experience}>GQS SEGUROS | Dez 2021 - Mai 2022</p> 
                     </div>
 
                     <div className={styles.experience_detail}>
@@ -69,7 +69,7 @@ export default function Experience(){
 
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
-                        <p className={styles.title_experience}>Assistente de T.I</p>
+                        <p className={styles.title_experience}>Assistente de TI</p>
                         <p className={styles.date_experience}>MAXIM | Mar 2021 - Out 2021</p> 
                     </div>
 
@@ -101,7 +101,7 @@ export default function Experience(){
 
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
-                        <p className={styles.title_experience}>Auxiliar de T.I</p>
+                        <p className={styles.title_experience}>Auxiliar de TI</p>
                         <p className={styles.date_experience}>CONTAS CONTABILIDADE | Out 2020 - Mar 2021</p> 
                     </div>
 
@@ -127,7 +127,7 @@ export default function Experience(){
                 
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
-                        <p className={styles.title_experience}>Suporte de T.I [estágio]</p>
+                        <p className={styles.title_experience}>Suporte de TI [estágio]</p>
                         <p className={styles.date_experience}>VIPAL BORRACHAS | Set 2018 - Set 2020</p> 
                     </div>
 
