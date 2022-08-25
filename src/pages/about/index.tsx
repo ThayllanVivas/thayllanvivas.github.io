@@ -6,7 +6,7 @@ import download_da_nuvem from '../../assets/download-da-nuvem.png'
 export default function About(){
     return (
         <main id={styles.ABOUT}>
-            <div id={styles.about_container}>
+            <div id={styles.container}>
                 <div id={styles.img}>
                     <img src={eu}/>
                 </div>
@@ -16,8 +16,8 @@ export default function About(){
                     <p>
                         Sou técnólogo em Sistemas para Internet pela Universidade de Maringá, no Paraná,
                         e estranhamente curioso por tecnologia; <br />
-                        Desde que me formei em 2020 busquei atrás de ser um desenvolvedor. <br />
-                        Trabalhei em empresas de médio e grande porte, sendo uma delas uma empresa da Rússia.<br />
+                        Desde que me formei em 2020 caminhei para me tornar um desenvolvedor Full Stack. <br />
+                        Nas minha trajetória trabalhei em empresas de médio e grande porte no setor de TI, sendo uma delas uma empresa da Rússia.<br />
                         
                     </p>
                     <span>Feira de Santana, Bahia - 23 anos</span>
