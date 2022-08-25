@@ -4,6 +4,7 @@ import experience1_logo from '../../assets/experiencia1.png'
 import experience2_logo from '../../assets/experiencia2.png'
 import experience3_logo from '../../assets/experiencia3.png'
 import experience4_logo from '../../assets/experiencia4.png'
+import experience5_logo from '../../assets/experiencia5.png'
 
 export default function Experience(){
     return (
@@ -20,22 +21,25 @@ export default function Experience(){
 
                     <div className={styles.experience_detail}>
                         <div className={styles.experience_img}>
-                            <img src={experience4_logo}/>
+                            <img src={experience5_logo}/>
                         </div>
 
                         <div className={styles.job_description_experience}>
                             {/* <h2>Dentro os projetos já feitos, esses são os que mais me desafiaram:</h2> */}
                             <p>
-                                ▪ Desenvolvi um sistema web para a antiga empresa em que trabalhei com as tecnologias: Node | TypeScript | NextJs, além do Express, SQL Server, PostegreSQL e do Prisma Cliente
+                                ▪ Desenvolvi um sistema web para empresa em que trabalhei com as tecnologias: Node | TypeScript | NextJs, além do Express, SQL Server, PostegreSQL e do Prisma Cliente
                             </p>
                             <p>
-                                ▪ Desenvolvi também sistema web para cálculo de custo de projeto;
+                                ▪ Um sistema web para cálculo de custo de projeto;
                             </p>
                             <p>
-                                ▪ Sistema para pizzaria receber pedidos;
+                                ▪ Sistema para pizzaria receber pedidos de pizza;
                             </p>
                             <p>
-                                ▪ E uma página web que informa os top 20 filmes mais bem avaliados.
+                                ▪ Uma página web que informa os top 20 filmes mais bem avaliados.
+                            </p>
+                            <p>
+                                ▪ Um chat app para conversas em grupo em tempo real utilizando Node e Socket.io.
                             </p>
                         </div>  
                     </div> 
