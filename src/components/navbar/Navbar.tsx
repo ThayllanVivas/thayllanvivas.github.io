@@ -15,7 +15,7 @@ function Navbar(){
                         <Link to="/"><img src={home} alt='home logo'/>home</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/about"><img src={about} alt='about logo'/>about</Link>
+                        <Link to="/about"><img src={about} alt='about logo'/>abt me</Link>
                     </li>
                     <li className={styles.item}>
                         <Link to="/experience"><img src={experience} alt='about logo'/>xp's</Link>
