@@ -1,13 +1,14 @@
 main#PROJECT {
     width: 100vw;
+    margin-bottom: 60px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
 
     #project_main {
-        width: 1000px;
-        height: inherit;
+        width: 90%;
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -17,26 +18,27 @@ main#PROJECT {
         }
     
         #project_container{
-            width: inherit;
+            width: 100%;
             margin-top: 2rem;
     
             .project{
                 width: inherit;
-                height: 320px;
 
                 display: flex;
                 align-items: center;
+                flex-direction: column;
                 justify-content: space-around;
                 
                 padding: 1rem 0;
-                margin-bottom: 2rem;
+                margin-bottom: 1rem;
                 border-radius: 0.7rem;
-                background-color: rgba(252, 39, 39, 0.021);
+                border-bottom: 2px solid white;
+                border-top: 2px solid white;
+                background-color: rgba(231, 223, 223, 0.062);
 
                 .project_demo{
-                    width: 40%;
+                    width: 90%;
                     
-
                     img {
                         border-radius: 0.5rem;
                         width: 100%;
@@ -44,8 +46,8 @@ main#PROJECT {
                 }
 
                 span {
-                    width: 2px;
-                    height: 150px;
+                    // width: 2px;
+                    // height: 150px;
 
                     margin: 0 0.4rem;
                     
@@ -53,7 +55,7 @@ main#PROJECT {
                 }
 
                 .project_info{
-                    width: 60%;
+                    width: 90%;
 
                     h3 {
                         text-align: center;
@@ -81,6 +83,55 @@ main#PROJECT {
                             }
                         }
                     }  
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 750px) {
+    main#PROJECT {
+    
+        #project_main {
+        
+            #project_container{
+        
+                .project{
+                    flex-direction: row;
+    
+                    .project_demo{
+                        width: 90%;
+                    }
+    
+                    span {
+                        width: 5px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    main#PROJECT {
+    
+        #project_main {
+            width: 1100px;
+        
+            #project_container{
+        
+                .project{
+                    padding: 1rem;
+    
+                    .project_demo{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img {
+                            width: 450px;
+                        }
+                    }
                 }
             }
         }

@@ -1,8 +1,5 @@
-import styles from '../../styles/Projects.module.scss'
-import example from '../../assets/example.png'
-import themovielib from '../../assets/themovielib.png'
-import gqsseguros from '../../assets/gqsseguros.png'
 import info from '../../assets/info.png'
+import styles from '../../styles/Projects.module.scss'
 import tecnologia from '../../assets/tecnologia.png'
 
 export default function Projects(){
@@ -14,6 +11,29 @@ export default function Projects(){
                 <h2>PROJETOS</h2>
 
                 <div id={styles.project_container}> 
+                    <div className={styles.project}>
+                        <div className={styles.project_demo}>
+                            {/* <a href='https://github.com/ThayllanVivas/gqsseguros' target='_blank'> */}
+                                <img src='https://media.giphy.com/media/lLIs7tkn7SxgrW4Cwu/giphy.gif' />
+                            {/* </a> */}
+                        </div>
+
+                        <span></span>
+
+                        <div className={styles.project_info}>
+                            <h3>EM BREVE</h3>
+                            
+                            <div>
+                                <p>
+                                    <img src={info} /> no spoilers
+                                </p>
+                                <p>
+                                    <img src={tecnologia} /> no spoilers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className={styles.project}>
                         <div className={styles.project_demo}>
                             <a href='https://github.com/ThayllanVivas/chat-app' target='_blank'>
@@ -116,7 +136,7 @@ export default function Projects(){
                         <span></span>
 
                         <div className={styles.project_info}>
-                            <h3>Costs</h3>
+                            <h3>COSTS</h3>
                             
                             <div>
                                 <p>
@@ -129,28 +149,7 @@ export default function Projects(){
                         </div>
                     </div>
 
-                    <div className={styles.project}>
-                        <div className={styles.project_demo}>
-                            {/* <a href='https://github.com/ThayllanVivas/gqsseguros' target='_blank'> */}
-                                <img src='https://media.giphy.com/media/lLIs7tkn7SxgrW4Cwu/giphy.gif' />
-                            {/* </a> */}
-                        </div>
-
-                        <span></span>
-
-                        <div className={styles.project_info}>
-                            <h3>EM BREVE</h3>
-                            
-                            <div>
-                                <p>
-                                    <img src={info} /> no spoilers
-                                </p>
-                                <p>
-                                    <img src={tecnologia} /> no spoilers
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
                 
             </div>
