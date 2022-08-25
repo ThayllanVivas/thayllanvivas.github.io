@@ -1,11 +1,9 @@
 main#ABOUT {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 120px);
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: antiquewhite;
-    margin-left: 4vw;
 
     #about_container {
         width: 1000px;
@@ -14,8 +12,6 @@ main#ABOUT {
         align-items: center;
 
         #img {
-            // width: 20%;
-            // margin-left: 4vw;
             margin-right: 3rem;
     
             img {
@@ -30,11 +26,9 @@ main#ABOUT {
             flex-direction: column;
             justify-content: center;
             font-size: 1.5rem;
-            // background-color: antiquewhite;
     
             h2 {
                 margin: 1rem 0;
-                // color: white;
             }
     
             p { 
@@ -44,7 +38,6 @@ main#ABOUT {
     
             span {
                 margin: 2rem 0;
-                // color: white;
             }
     
             #contact{
@@ -52,7 +45,6 @@ main#ABOUT {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
-                // background-color: antiquewhite;
     
                 a {
                     display: flex;

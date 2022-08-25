@@ -10,22 +10,20 @@ function Navbar(){
     return (
         <nav id={styles.navbar}>
             <div id={styles.container}>
-{/* 
-                <div id={styles.logo}>
-                    <Link to="/">
-                        <img src={logo} alt="logo" />
-                    </Link>
-                </div> */}
-
-                <div id={styles.links}>
-                    <ul id={styles.list}>
-                        <li className={styles.item}><Link to="/"><img src={home} alt='home logo'/>home</Link></li>
-                        <li className={styles.item}><Link to="/about"><img src={about} alt='about logo'/>about</Link></li>
-                        <li className={styles.item}><Link to="/experience"><img src={experience} alt='about logo'/>xp's</Link></li>
-                        <li className={styles.item}><Link to="/projects"><img src={project} alt='about logo'/>projects</Link></li>
-                    </ul>
-                </div>
-
+                <ul id={styles.list}>
+                    <li className={styles.item}>
+                        <Link to="/"><img src={home} alt='home logo'/>home</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to="/about"><img src={about} alt='about logo'/>about</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to="/experience"><img src={experience} alt='about logo'/>xp's</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to="/projects"><img src={project} alt='about logo'/>projects</Link>
+                    </li>
+                </ul>
             </div>
         </nav>
     )

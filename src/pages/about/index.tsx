@@ -1,8 +1,7 @@
-import styles from '../../styles/About.module.scss'
-import profile from '../../assets/profile.png'
-import download_da_nuvem from '../../assets/download-da-nuvem.png'
-import email from '../../assets/email.png'
 import eu from '../../assets/programacao.png'
+import email from '../../assets/email.png'
+import styles from '../../styles/About.module.scss'
+import download_da_nuvem from '../../assets/download-da-nuvem.png'
 
 export default function About(){
     return (

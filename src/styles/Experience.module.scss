@@ -2,12 +2,11 @@ main#EXPERIENCE {
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin: 5vh 0;
     color: rgba(255, 255, 255, 0.63);
-    margin-left: 8vw;
+    margin-bottom: 60px;
 
     #experience_container {
-        width: 900px;
+        width: 1000px;
 
         h2 {
             text-align: center;
@@ -32,12 +31,10 @@ main#EXPERIENCE {
                     font-size: 1.5rem;
                     color: rgba(255, 255, 255, 0.87);
                     font-weight: bold;
-                    // background-color: rgba(16, 250, 250, 0.308);
                 }
 
                 .date_experience{
                     text-align: right;
-                    // background-color: rgba(201, 157, 13, 0.308);
                 }
             }
 
@@ -80,7 +77,6 @@ main#EXPERIENCE {
 @media screen and (max-width: 1400px) {
     #EXPERIENCE {
         width: 100vw !important;
-        // background-color: rgba(255, 228, 196, 0.555);
 
         #container {
             width: 90vw !important;

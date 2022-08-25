@@ -70,7 +70,7 @@ export default function Experience(){
                 <div className={styles.experience_container}>
                     <div className={styles.experience_info}>
                         <p className={styles.title_experience}>Assistente de TI</p>
-                        <p className={styles.date_experience}>MAXIM | Mar 2021 - Out 2021</p> 
+                        <p className={styles.date_experience}>MAXIM | Mar 2021 - Nov 2021</p> 
                     </div>
 
                     <div className={styles.experience_detail}>

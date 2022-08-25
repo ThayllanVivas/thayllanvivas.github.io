@@ -3,15 +3,14 @@ main#PROJECT {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 
     #project_main {
-        margin-top: 2rem;
-        width: 900px;
+        width: 1000px;
         height: inherit;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 6vw;
 
         h2 {
             color: rgba(255, 255, 255, 0.555);            
@@ -68,7 +67,6 @@ main#PROJECT {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        // align-items: center;
 
                         p {
                             display: flex;
