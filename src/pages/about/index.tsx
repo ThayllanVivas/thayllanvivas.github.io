@@ -17,7 +17,7 @@ export default function About(){
                         Sou técnólogo em Sistemas para Internet pela Universidade de Maringá, no Paraná,
                         e estranhamente curioso por tecnologia; <br />
                         Desde que me formei em 2020 caminhei para me tornar um desenvolvedor Full Stack. <br />
-                        Nas minha trajetória trabalhei em empresas de médio e grande porte no setor de TI, sendo uma delas uma empresa da Rússia.<br />
+                        Na minha trajetória trabalhei em empresas de médio e grande porte no setor de TI, sendo uma delas uma empresa da Rússia.<br />
                         
                     </p>
                     <span>Feira de Santana, Bahia - 23 anos</span>
